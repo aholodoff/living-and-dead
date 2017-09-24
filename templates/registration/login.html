@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+<div class='col-sm-6'>
+  <h1>Вход</h1>
+  <form method='post' action='.'>
+    {% csrf_token %} 
+    {{ form.as_p }}
+    <input class='btn btn-primary' type='submit' value="{% trans 'Log in' %}" />
+    <input type='hidden' name='next' value='{{ next }}' />
+  </form>
+  <p>Забыли пароль? <a href="{% url 'auth_password_reset' %}">{% trans 'Reset it' %}</a>!</p>
+  <p>Нет зарегистрированы? <a href="{% url 'registration_register' %}">{% trans 'Register' %}</a>!</p>
+</div>
+{% endblock %}

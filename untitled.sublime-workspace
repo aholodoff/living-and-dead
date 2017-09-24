@@ -1,0 +1,958 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"form_1"
+			],
+			[
+				"for",
+				"form_1"
+			],
+			[
+				"f",
+				"form"
+			],
+			[
+				"rel",
+				"related_name"
+			],
+			[
+				"B",
+				"BurialAdmin"
+			],
+			[
+				"s",
+				"save_on_top"
+			],
+			[
+				"m",
+				"ModelAdmin"
+			],
+			[
+				"n",
+				"nav-link"
+			],
+			[
+				"pr",
+				"PRIMARY"
+			],
+			[
+				"vr",
+				"verbose_name_plural"
+			],
+			[
+				"ve",
+				"verbose_name"
+			],
+			[
+				"F",
+				"ForeignKey"
+			],
+			[
+				"P",
+				"Person"
+			],
+			[
+				"DJ",
+				"django"
+			],
+			[
+				"AU",
+				"AuthenticationMiddleware"
+			],
+			[
+				"re",
+				"related_name"
+			],
+			[
+				"A",
+				"AdditionalDocumentInLine"
+			],
+			[
+				"de",
+				"dead_men"
+			],
+			[
+				"S",
+				"Status"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"D",
+				"DeadMen"
+			],
+			[
+				"c",
+				"Cemetery"
+			],
+			[
+				"i",
+				"import"
+			],
+			[
+				"v",
+				"verbose_name_plural"
+			],
+			[
+				"ver",
+				"verbose_name"
+			],
+			[
+				"W",
+				"WorkAdmin"
+			],
+			[
+				"Ceme",
+				"CemeteryAdmin"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"E",
+				"EMAIL_HOST"
+			],
+			[
+				"b",
+				"BASE_DIR"
+			],
+			[
+				"J",
+				"join"
+			],
+			[
+				"PA",
+				"path"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"ta",
+				"TABLE"
+			],
+			[
+				"N",
+				"NULL"
+			],
+			[
+				"p",
+				"person"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"in",
+				"inputFile"
+			],
+			[
+				"wa",
+				"wavread"
+			],
+			[
+				"ol",
+				"old_value"
+			],
+			[
+				"or",
+				"original"
+			],
+			[
+				"su",
+				"successor"
+			],
+			[
+				"e",
+				"elements"
+			],
+			[
+				"w",
+				"walk"
+			],
+			[
+				"na",
+				"name_XPath"
+			],
+			[
+				"pro",
+				"products_page_url"
+			],
+			[
+				"ne",
+				"next_page_url"
+			],
+			[
+				"nex",
+				"next_page_url"
+			],
+			[
+				"pa",
+				"parse_data"
+			],
+			[
+				"to",
+				"token"
+			],
+			[
+				"lo",
+				"login_url"
+			],
+			[
+				"it",
+				"item_loader"
+			],
+			[
+				"Z",
+				"RuZaykaItem"
+			],
+			[
+				"u",
+				"url"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"a",
+				"age"
+			],
+			[
+				"rec",
+				"record"
+			],
+			[
+				"st",
+				"store_dbase"
+			],
+			[
+				"EN",
+				"ENDREC"
+			],
+			[
+				"db",
+				"dbfile"
+			],
+			[
+				"dbf",
+				"dbfilename"
+			],
+			[
+				"_",
+				"_values"
+			],
+			[
+				"g",
+				"group"
+			],
+			[
+				"ch3bc-S",
+				"ch3bc-spiders"
+			],
+			[
+				"ch3",
+				"ch3bc-sp"
+			],
+			[
+				"ch",
+				"ch3bc-sp"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"add",
+				"add_path"
+			],
+			[
+				"ex",
+				"extract_first"
+			],
+			[
+				"ch5",
+				"ch5qsr-astli"
+			],
+			[
+				"t",
+				"title\tAttr"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ch1",
+				"ch1is-mr2ls"
+			],
+			[
+				"h",
+				"h2\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"page",
+				"page_url"
+			],
+			[
+				"co",
+				"code\tTag"
+			],
+			[
+				"Ca",
+				"CategoryAdmin"
+			],
+			[
+				"ite",
+				"item_tree"
+			],
+			[
+				"sl",
+				"sleep"
+			],
+			[
+				"sav",
+				"save_images"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"price_of_",
+				"get_price_of_m2"
+			],
+			[
+				"sq",
+				"square"
+			],
+			[
+				"get_",
+				"get_storeys"
+			],
+			[
+				"ge",
+				"get_status"
+			],
+			[
+				"sts",
+				"status"
+			],
+			[
+				"ar",
+				"area_square"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"save",
+				"save_gallery"
+			],
+			[
+				"img",
+				"img_url"
+			],
+			[
+				"ap",
+				"apartment"
+			],
+			[
+				"are",
+				"area"
+			],
+			[
+				"get",
+				"get_square"
+			],
+			[
+				"url",
+				"urljoin"
+			],
+			[
+				"I",
+				"IMG"
+			],
+			[
+				"htm",
+				"html_item"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"DE",
+				"DESCRIPTION"
+			],
+			[
+				"pu",
+				"pub_date"
+			],
+			[
+				"se",
+				"seller"
+			],
+			[
+				"l",
+				"lvls"
+			],
+			[
+				"flo",
+				"floor"
+			],
+			[
+				"he",
+				"help_text"
+			],
+			[
+				"ars",
+				"args"
+			],
+			[
+				"H",
+				"Home"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"home",
+				"home_square"
+			],
+			[
+				"pub",
+				"published_string"
+			],
+			[
+				"pub_",
+				"pub_date"
+			],
+			[
+				"las",
+				"last_page_num"
+			],
+			[
+				"from",
+				"fromstring"
+			],
+			[
+				"T",
+				"TITLE"
+			],
+			[
+				"req",
+				"requests"
+			],
+			[
+				"U",
+				"URL"
+			],
+			[
+				"O",
+				"ON_SITE_WITH_URL"
+			],
+			[
+				"goo",
+				"goods"
+			],
+			[
+				"G",
+				"GOODS"
+			],
+			[
+				"L",
+				"LAST_LINK_ON_PAGE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/alex/CodeInWork/lastqueitness/src/settings.py",
+			"settings":
+			{
+				"buffer_size": 3147,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/alex/CodeInWork/knipo/burial_form",
+		"/home/alex/CodeInWork/knipo/templates",
+		"/home/alex/CodeInWork/knipo/templates/forms"
+	],
+	"file_history":
+	[
+		"/home/alex/CodeInWork/knipo/burial_form/models.py",
+		"/home/alex/CodeInWork/knipo/burial_form/forms.py",
+		"/home/alex/CodeInWork/knipo/burial_form/views.py",
+		"/home/alex/CodeInWork/knipo/templates/forms/new_form_1.html",
+		"/home/alex/CodeInWork/mysite/settings.py",
+		"/home/alex/CodeInWork/knipo/templates/forms/form1.html",
+		"/home/alex/CodeInWork/knipo/templates/index.html",
+		"/home/alex/CodeInWork/knipo/src/urls.py",
+		"/home/alex/CodeInWork/knipo/burial_form/admin.py",
+		"/home/alex/CodeInWork/knipo/catalog/models.py",
+		"/media/alex/qumo14Gb9/усопшие/Создание базы и наполнение таблицами.sql",
+		"/home/alex/CodeInWork/knipo/catalog/admin.py",
+		"/home/alex/CodeInWork/knipo/client/models.py",
+		"/home/alex/CodeInWork/knipo/src/settings.py",
+		"/media/alex/qumo14Gb9/усопшие/queitness_desktop/doc_form/models.py",
+		"/media/alex/qumo14Gb9/усопшие/edited_sql.sql",
+		"/home/alex/CodeInWork/2017-09-15_17-22_knipoldb.sql",
+		"/home/alex/CodeInWork/knipo/client/admin.py",
+		"/media/alex/qumo14Gb9/усопшие/queitness_desktop/catalog/models.py",
+		"/media/alex/qumo14Gb9/усопшие/queitness_desktop/doc_form_book/models.py",
+		"/media/alex/qumo14Gb9/усопшие/queitness_desktop/database/models.py",
+		"/media/alex/qumo14Gb9/усопшие/заполнение таблицы мун_образования МО.sql",
+		"/media/alex/qumo14Gb9/усопшие/Терр.образования РФ.sql",
+		"/home/alex/CodeInWork/knipo/templates/custom/registrate.html",
+		"/home/alex/CodeInWork/knipo/client/views.py",
+		"/home/alex/CodeInWork/knipo/client/forms.py",
+		"/home/alex/CodeInWork/knipo/client/__init__.py",
+		"/media/alex/qumo14Gb9/TRASH/Текстовый файл",
+		"/home/alex/CodeInWork/knipo/client/apps.py",
+		"/home/alex/py35envs/dj1.10.8/lib/python3.5/site-packages/django/contrib/admin/apps.py",
+		"/home/alex/py35envs/dj1.10.8/lib/python3.5/site-packages/django/contrib/admin/__init__.py",
+		"/home/alex/CodeInWork/knipo/database/apps.py",
+		"/home/alex/CodeInWork/knipo/database/forms.py",
+		"/home/alex/CodeInWork/knipo/database/admin.py",
+		"/home/alex/CodeInWork/knipo/templates/base.html",
+		"/media/alex/qumo14Gb9/усопшие/queitness_desktop/database/admin.py",
+		"/home/alex/CodeInWork/knipo/database/migrations/0002_auto_20170921_0108.py",
+		"/home/alex/CodeInWork/knipo/database/models.py",
+		"/home/alex/CodeInWork/knipo/database/models_old.py",
+		"/home/alex/CodeInWork/knipo/templates/registration/login.html",
+		"/home/alex/CodeInWork/knipo/templates/registration/password_reset_confirm.html",
+		"/home/alex/CodeInWork/knipo/templates/registration/password_change_done.html",
+		"/home/alex/CodeInWork/knipo/templates/registration/password_change_form.html",
+		"/home/alex/CodeInWork/knipo/templates/registration/password_reset_complete.html",
+		"/home/alex/CodeInWork/knipo/templates/registration/password_reset_done.html",
+		"/home/alex/CodeInWork/knipo/templates/registration/password_reset_form.html",
+		"/home/alex/CodeInWork/knipo/templates/registration/registration_closed.html",
+		"/home/alex/CodeInWork/knipo/templates/registration/registration_complete.html",
+		"/home/alex/CodeInWork/knipo/templates/registration/registration_form.html",
+		"/home/alex/CodeInWork/knipo/templates/registration/logout.html",
+		"/home/alex/CodeInWork/knipo/templates/registration/activate.html",
+		"/home/alex/CodeInWork/knipo/doc_form/models.py",
+		"/home/alex/CodeInWork/knipo/templates/base_old.html",
+		"/home/alex/CodeInWork/knipo/templates/index_old.html",
+		"/home/alex/CodeInWork/knipo/static/css/bootstrap_cosmo_3.3.7.css",
+		"/home/alex/CodeInWork/knipo/static/css/custom.css",
+		"/home/alex/CodeInWork/knipo/templates/base_accounts.html",
+		"/home/alex/CodeInWork/knipo/doc_form/admin.py",
+		"/home/alex/CodeInWork/knipo/doc_form/__init__.py",
+		"/home/alex/CodeInWork/knipo/doc_form/apps.py",
+		"/usr/share/applications/org.kde.konsole.desktop",
+		"/home/alex/avito2db/src/avito2db/admin.py",
+		"/home/alex/avito2db/src/avito2db/models.py",
+		"/home/alex/CodeInWork/knipo/catalog/apps.py",
+		"/home/alex/CodeInWork/knipo/catalog/__init__.py",
+		"/home/alex/CodeInWork/knipo/business/models.py",
+		"/home/alex/CodeInWork/knipo/business/admin.py",
+		"/home/alex/CodeInWork/knipo/business/migrations/0001_initial.py",
+		"/home/alex/Temp/fundamental/models.py",
+		"/home/alex/CodeInWork/knipo/templates/registration/activation_complete.html",
+		"/home/alex/CodeInWork/DimTeam/src/src/urls.py",
+		"/home/alex/CodeInWork/DimTeam/src/src/settings.py",
+		"/home/alex/CodeInWork/src/src/settings.py",
+		"/home/alex/CodeInWork/DimTeam/templates/lending_wo_scroll.html",
+		"/home/alex/avito2db/src/src/urls.py",
+		"/home/alex/.bashrc",
+		"/home/alex/.bash_profile",
+		"/home/alex/avito2db/src/templates/base.html",
+		"/home/alex/avito2db/src/templates/index.html",
+		"/home/alex/CodeInWork/DimTeam/src/queitness/migrations/forms.py",
+		"/home/alex/CodeInWork/DimTeam/static/css/cover.css",
+		"/home/alex/CodeInWork/DimTeam/static/css/custom.css",
+		"/home/alex/CodeInWork/DimTeam/templates/index_old.html",
+		"/home/alex/CodeInWork/DimTeam/templates/index.html",
+		"/home/alex/coursera/Stanford - CCRMA/Week 01/0 - Theory lectures/2 - Basic mathematics.vtt",
+		"/home/alex/avito2db/src/src/settings.py",
+		"/media/alex/qumo14Gb9/усопшие/queitness_desktop/queitness/urls.py",
+		"/home/alex/CodeInWork/DimTeam/src/queitness/models.py",
+		"/media/alex/qumo14Gb9/усопшие/2017-09-15_17-22_psql.backup",
+		"/home/alex/CodeInWork/DimTeam/ih197001_ritual.sql",
+		"/home/alex/CodeInWork/DimTeam/untitled.sql",
+		"/home/alex/CodeInWork/DimTeam/src/queitness/models_future.py",
+		"/media/alex/qumo14Gb9/aliexpress_2016-Men-s-Winter-I",
+		"/home/alex/.bash_history",
+		"/home/alex/CodeInWork/DimTeam/queitness/queitness/settings.py",
+		"/home/alex/coursera/Stanford - CCRMA/Week 02/0 - Theory lectures/0 - DFT 1.txt",
+		"/home/alex/CodeInWork/DimTeam/temp",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 02/0 - Theory lectures/0 - DFT 1_ru.vtt",
+		"/media/alex/qumo14Gb9/усопшие/ih197001_ritual.sql",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 02/0 - Theory lectures/1 - DFT 2.txt",
+		"/home/alex/coursera/ccrma_assigns/sms-tools-master/workspace/A1/A1Part4.py",
+		"/home/alex/coursera/Stanford - CCRMA/Week 02/0 - Theory lectures/0 - DFT 1.vtt",
+		"/home/alex/coursera/ccrma_assigns/sms-tools-master/workspace/A1/A1Part3.py",
+		"/home/alex/coursera/ccrma_assigns/sms-tools-master/workspace/A1/A1Part2.py",
+		"/home/alex/coursera/ccrma_assigns/sms-tools-master/workspace/A1/A1Part1.py",
+		"/home/alex/coursera/ccrma_assigns/sms-tools-master/software/models/utilFunctions.py",
+		"/home/alex/coursera/ccrma_assigns/sms-tools-master/workspace/A1/submitA1.py",
+		"/home/alex/coursera/ccrma_assigns/sms-tools-master/software/models_interface/sineModel_function.py",
+		"/home/alex/coursera/ccrma_assigns/sms-tools-master/software/models/sineModel.py",
+		"/home/alex/coursera/ccrma_assigns/sms-tools-master/reverse.py",
+		"/home/alex/coursera/ccrma_assigns/sms-tools-master/software/models_interface/stft_function.py",
+		"/home/alex/coursera/ccrma_assigns/sms-tools-master/software/models_interface/stft_GUI_frame.py",
+		"/home/alex/coursera/ccrma_assigns/sms-tools-master/software/README.txt",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 01/0 - Theory lectures/2 - Basic mathematics.vtt",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 01/0 - Theory lectures/2 - Basic mathematics.txt",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 01/00 - Theory lectures/02 - Basic mathematics.txt",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 01/00 - Theory lectures/02 - Basic mathematics.vtt",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 01/00 - Theory lectures/01 - Course outline.txt",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 01/00 - Theory lectures/01 - Course outline.vtt",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 00 - Welcome lectures ( 2 videos )/00w00 - Teaser.srt",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 00 - Welcome lectures ( 2 videos )/00w00 - Teaser.vtt",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 01/00 - Theory lectures/02 - Basic mathematics (eng).vtt",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 01/00 - Theory lectures/00 - Introduction to DSP_chinese2english.srt",
+		"/media/alex/qumo14Gb9/Stanford - 1T1 - CCRMA - Audio Signal Processing for Music Application/Week 01/00 - Theory lectures/00 - Introduction to DSP_2english.srt",
+		"/home/alex/Stanford - CCRMA/01 - Teaser_eng.txt",
+		"/home/alex/Stanford - CCRMA/audio-signal-processing.lnk",
+		"/home/alex/Stanford - CCRMA/02 - Introduction in DSP_2english.srt",
+		"/home/alex/Stanford - CCRMA/02 - Introduction in DSP_chinese2english.srt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n        '",
+			"Status",
+			"status",
+			"STATUS",
+			"Status",
+			"STATUS",
+			"Status",
+			"Admin",
+			"Organization",
+			"\\\n                    ",
+			"_",
+			"AdminOfOrganization",
+			"Burial",
+			"ContactPerson",
+			"ContactPersonIn",
+			"AuthorizedPerson",
+			"models.",
+			"\n  (",
+			"', 0, ",
+			"е', 0, ",
+			"е', 0, '",
+			"', 0, '",
+			"', 3, '",
+			"\\",
+			"ContactPerson",
+			"AddAccountForm",
+			"Profile",
+			"d(",
+			"Group",
+			"group",
+			"Group",
+			"class",
+			"GroupManager",
+			"UserManager",
+			"Group",
+			"group",
+			"Group",
+			"user",
+			"User",
+			"user",
+			"USER",
+			"user",
+			"USER",
+			"user",
+			"User",
+			"formData",
+			"class AddAccountForm(forms.ModelForm):\n    class Meta:\n        model = Account\n        fields = ('key_id', 'v_code', 'user_name')\n",
+			"\n        fields = ('key_id', 'v_code', 'user_name')",
+			"\t",
+			"user",
+			"User",
+			"\"",
+			"\n        ",
+			"   ....:",
+			"\t",
+			"database_organization",
+			"\t",
+			"\"",
+			"bool",
+			")\n",
+			"\n",
+			"\\\n",
+			"\n",
+			"class",
+			"\n",
+			"\t",
+			"ФИО",
+			"Tool",
+			"tool",
+			"ToolS",
+			"tools",
+			"Вид сооружения",
+			"text",
+			"place",
+			"Place",
+			"place",
+			"Burial",
+			"\t",
+			"static",
+			"'",
+			"os.path.join(BASE_DIR, 'db.sqlite3'),",
+			"'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),",
+			"django.db.backends.sqlite3",
+			"STATIC",
+			"lending_wo_scroll_files",
+			"src",
+			"index2_files/",
+			"type=\"text/javascript\" src",
+			"type=\"text/javascript\" ",
+			"declarant",
+			"status_id",
+			"\n    ",
+			"conda",
+			"date",
+			"BurialTypesId",
+			";\nINSERT INTO `burialtypes` ",
+			"BurialTypeId",
+			"BurialTypes",
+			"burialtypes",
+			"BurialTypeId",
+			"BurialTypesId",
+			"burialtypes",
+			"BurialTypeId",
+			"burialtypes",
+			"BurialTypeId",
+			"burialtypes",
+			"BurialTypeId",
+			"AddParams",
+			";\n\t(",
+			"''",
+			", null,",
+			";\nINSERT INTO burial_type (`BurialTypeId`, `BurialName`, `AddParams`, `Info`) VALUES",
+			"`burialtypes`",
+			";\nINSERT INTO cemetery (`CemeteryId`, `CamName`, `Address`, `Info`) VALUES",
+			"`cemeteries`",
+			"(id,",
+			"`DeathDocNum`",
+			"`DeathDate`",
+			"`BirthDate`",
+			"`DeadFIO`",
+			"`CemeteriesId`",
+			"`phone`",
+			"`inn`",
+			"`FactAddress`",
+			"`ServiceAddress`",
+			"`ServiceName`",
+			"`Form2Date`",
+			"`Form2ID`"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/alex/CodeInWork/lastqueitness/src/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1077,
+								1077
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

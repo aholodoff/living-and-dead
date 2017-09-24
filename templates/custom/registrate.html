@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Регистрация</title>
+</head>
+<body>
+  <h1>Регистрация</h1>
+  <div id="content-main">
+    <form enctype="multipart/form-data" action="" method="post" id="user_form" novalidate="">
+      <input name="csrfmiddlewaretoken" value="zxmaT4AbdU17jSj9W1joTN3ecm7lr7nFk3qvR3SDZCzse4bfoIWn1ydBpxBHVk4A" type="hidden">
+      <p>Сначала введите имя пользователя и пароль. Затем вы сможете ввести больше информации о пользователе.</p>
+      <div>
+        <fieldset class="module aligned wide">
+          <div class="form-row field-username">
+            <div>
+              <label class="required" for="id_username">Имя пользователя:</label>
+              <input autofocus="" class="vTextField" id="id_username" maxlength="150" name="username" required="" type="text">
+              <p class="help">Обязательное поле. Не более 150 символов. Только буквы, цифры и символы @/./+/-/_.</p>
+            </div>
+          </div>
+          <div class="form-row field-password1">
+            <div>
+              <label class="required" for="id_password1">Пароль:</label>
+              <input id="id_password1" name="password1" required="" type="password">
+            </div>
+          </div>
+          <div class="form-row field-password2">
+            <div>
+              <label class="required" for="id_password2">Подтверждение пароля:</label>
+              <input id="id_password2" name="password2" required="" type="password">
+              <p class="help">Для подтверждения введите, пожалуйста, пароль ещё раз.</p>
+            </div>
+          </div>
+        </fieldset>
+        <div class="submit-row">
+          <input value="Сохранить" class="default" name="_save" type="submit">
+          <input value="Сохранить и добавить другой объект" name="_addanother" type="submit">
+          <input value="Сохранить и продолжить редактирование" name="_continue" type="submit">
+        </div>
+      </div>
+    </form>
+  </div>
+  <script type="text/javascript" id="django-admin-form-add-constants" src="/static/admin/js/change_form.js" data-model-name="user">
+    </script>
+  <script type="text/javascript" id="django-admin-prepopulated-fields-constants" src="/static/admin/js/prepopulate_init.js" data-prepopulated-fields="[]"></script>
+</body>
+</html>

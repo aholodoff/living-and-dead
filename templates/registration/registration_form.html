@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+<div class='col-sm-6'>
+  <h1>Регистрация</h1>
+  <form method='post' action='.'>
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <input type='submit' value="{% trans 'Submit' %}" />
+  </form>
+</div>
+{% endblock %}

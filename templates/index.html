@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}Главная | Компания новое Интеллектуальное ПО — КНИПО{% endblock title %}
+
+{% block content %}   
+    <div class='site-wrapper'>
+      <div class='site-wrapper-inner'>
+        <div class='cover-container'>
+          <div class='masthead clearfix'>
+            <div class='inner'>
+              <h3 class='masthead-brand'>КНИПО</h3>
+              <nav class='nav nav-masthead'>
+                <a class='nav-link active' href='tel:+79250915077'>+7(925) 091-50-77</a>
+                <a class='nav-link' href='{% url "registrate" %}'>Регистрация</a>
+                <a class='nav-link' href='/adm/'>Вход</a>
+                <a class='nav-link' href='//web10-cp.marosnet.net:2083/cpsess0289270226/frontend/paper_lantern/index.html'>айхор панель</a>
+                <a class='nav-link' href='//kniposoft.ru'>knipold</a>
+              </nav>
+            </div>
+          </div>
+          <div class='inner cover'>
+            <h1 class='cover-heading'>Программный комплекс <small>учета муниципальных услуг в сфере погребения и похороннго дела</small>. 'Память'</h1>
+            <p class='lead'>
+              <a href="{% url 'create_form1' %}" class='btn btn-lg btn-secondary'>Узнать больше</a>
+            </p>
+          </div>
+
+          <div class='mastfoot'>
+            <div class='inner'>
+              <p>© 2017 Все права защищены. <a href='mailto:dtimagin@mail.ru'>dtimagin@mail.ru</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock content %}
+  </body>
+</html>

@@ -1,0 +1,1190 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{{ form }}
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  ВВЕРХУШКА АВТОРИЗАЙИЯ-СЕССИЯ-ЛОГИН-ПАРОЛЬ 1 часть КОНЕЦ -->
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="windows-1251"/>
+<title>Cemetry | Личный Кабинет Участника</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css">
+<link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css">
+<link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN PAGE LEVEL STYLES -->
+<link rel="stylesheet" type="text/css" href="assets/global/plugins/clockface/css/clockface.css"/>
+<link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css"/>
+<link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css"/>
+<link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-colorpicker/css/colorpicker.css"/>
+<link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css"/>
+<link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css"/>
+<!-- END PAGE LEVEL STYLES -->
+<!-- BEGIN THEME STYLES -->
+<link href="assets/global/css/components-rounded.css" id="style_components" rel="stylesheet" type="text/css">
+<link href="assets/global/css/plugins.css" rel="stylesheet" type="text/css">
+<link href="assets/admin/layout3/css/layout.css" rel="stylesheet" type="text/css">
+<link href="assets/admin/layout3/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color">
+<link href="assets/admin/layout3/css/custom.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<script>
+function check() {
+    var n1 = document.getElementById("DeclarantFIO"); 
+    var n2 = document.getElementById("BurialResp");
+    
+    if (document.getElementById("otvetstvenni_fio_p1").checked == true) {
+        n2.value = n1.value;
+        document.getElementById("BurialResp").readOnly = true;
+    }
+}
+function uncheck() {
+    if (document.getElementById("otvetstvenni_fio_p1").checked == false) {
+        document.getElementById("BurialResp").value = '';
+        document.getElementById("BurialResp").readOnly = false;
+    }
+}
+</script>
+
+
+
+<!-- END THEME STYLES -->
+<link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<!-- DOC: Apply "page-header-menu-fixed" class to set the mega menu fixed  -->
+<!-- DOC: Apply "page-header-top-fixed" class to set the top menu fixed  -->
+<body>
+<!-- BEGIN HEADER -->
+<div class="page-header">
+	<!-- BEGIN HEADER TOP -->
+	<div class="page-header-top">
+		<div class="container">
+			<!-- BEGIN LOGO -->
+			<div class="page-logo">
+				<a href="index.html"><img src="assets/admin/layout3/img/logo-default.png" alt="logo" class="logo-default"></a>
+			</div>
+			<!-- END LOGO -->
+			<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+			<a href="javascript:;" class="menu-toggler"></a>
+			<!-- END RESPONSIVE MENU TOGGLER -->
+			<!-- BEGIN TOP NAVIGATION MENU -->
+			<div class="top-menu">
+				<ul class="nav navbar-nav pull-right">
+             
+             
+					<!-- ЗНАЧОК ЗВОНОК с СООБЩЕНИЯМИ (РОСТ ЛИЧНЫЙ в системе скоко вкладов и тд когда снимать осталось и тд)  НАЧАЛО-->
+
+
+<li class="dropdown dropdown-extended dropdown-dark dropdown-notification" id="header_notification_bar">
+
+<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        
+                        
+                        
+
+<span id="status_fio_3">Здравствуйте Алексей Андреевич Алексеевич!&nbsp;&nbsp;&nbsp;</span>
+
+
+
+						</a>
+                     
+					</li>
+
+					
+					<!-- ЗНАЧОК ЗВОНОК с СООБЩЕНИЯМИ КОНЕЦ-->
+                                    
+                                      
+                    
+                    
+					<!-- ЗНАЧОК КАЛЕНДАРЬ с СООБЩЕНИЯМИ (РОСТ СИСТСЕМЫ в процентах вклады и тд)  НАЧАЛО -->
+<li class="dropdown dropdown-extended dropdown-dark dropdown-tasks" id="header_task_bar">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+						
+						<!--<span class="badge badge-default">3</span>-->
+						</a>
+                        <!--
+						<ul class="dropdown-menu extended tasks">
+							<li class="external">
+								<h3>You have <strong>12 pending</strong> tasks</h3>
+								<a href="javascript:;">view all</a>
+							</li>
+							<li>
+								<ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
+									<li>
+										<a href="javascript:;">
+										<span class="task">
+										<span class="desc">New release v1.2 </span>
+										<span class="percent">30%</span>
+										</span>
+										<span class="progress">
+										<span style="width: 40%;" class="progress-bar progress-bar-success" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">40% Complete</span></span>
+										</span>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;">
+										<span class="task">
+										<span class="desc">Application deployment</span>
+										<span class="percent">65%</span><!-- сам текст-цифры позлунка - ->
+										</span>
+										<span class="progress"><!-- Заполненость ленты в процентах 65% - ->
+										<span style="width: 65%;" class="progress-bar progress-bar-danger" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">65% Complete</span></span>
+										</span>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;">
+										<span class="task">
+										<span class="desc">Mobile app release</span>
+										<span class="percent">98%</span>
+										</span>
+										<span class="progress">
+										<span style="width: 98%;" class="progress-bar progress-bar-success" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">98% Complete</span></span>
+										</span>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;">
+										<span class="task">
+										<span class="desc">Database migration</span>
+										<span class="percent">10%</span>
+										</span>
+										<span class="progress">
+										<span style="width: 10%;" class="progress-bar progress-bar-warning" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">10% Complete</span></span>
+										</span>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;">
+										<span class="task">
+										<span class="desc">Web server upgrade</span>
+										<span class="percent">58%</span>
+										</span>
+										<span class="progress">
+										<span style="width: 58%;" class="progress-bar progress-bar-info" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">58% Complete</span></span>
+										</span>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;">
+										<span class="task">
+										<span class="desc">Mobile development</span>
+										<span class="percent">85%</span>
+										</span>
+										<span class="progress">
+										<span style="width: 85%;" class="progress-bar progress-bar-success" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">85% Complete</span></span>
+										</span>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;">
+										<span class="task">
+										<span class="desc">New UI release</span>
+										<span class="percent">38%</span>
+										</span>
+										<span class="progress progress-striped">
+										<span style="width: 38%;" class="progress-bar progress-bar-important" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">38% Complete</span></span>
+										</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>-->
+					</li>						
+					<!-- ЗНАЧОК КАЛЕНДАРЬ с СООБЩЕНИЯМИ (РОСТ СИСТСЕМЫ в процентах вклады и тд)  КОНЕЦ -->
+                    
+                   
+					<li class="droddown dropdown-separator">
+						<span class="separator"></span><!-- РАЗДЕЛИТЕЛЬ -->
+					</li>
+                    
+                    
+					<!-- ЗНАЧОК ОКОЛО АВАТАРКИ ТОЛИ СООБЩЕНИЯ С ПОЧТЫ ТОЛИ НОВОСТИ С ГЛАВ САЙТА НОВЫЕ + О НОВЫХ ВЫПЛАТАХ   НАЧАЛО -->
+<!--<li class="dropdown dropdown-extended dropdown-dark dropdown-inbox" id="header_inbox_bar">
+
+
+
+
+
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+						<span class="circle"></span><!--3 ЦИФРА!!!!!!!!!!!- ->
+						<span class="corner"></span>
+						</a>
+                        
+						<ul class="dropdown-menu">
+							<li class="external">
+								<h3>You have <strong>7 New</strong> Messages</h3>
+								<a href="javascript:;">view all</a>
+							</li>
+							<li>
+								<ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
+									<li>
+										<a href="inbox.html?a=view">
+										<span class="photo">
+										<img src="../../assets/admin/layout3/img/avatar2.jpg" class="img-circle" alt="">
+										</span>
+										<span class="subject">
+										<span class="from">
+										Lisa Wong </span>
+										<span class="time">Just Now </span>
+										</span>
+										<span class="message">
+										Vivamus sed auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+										</a>
+									</li>
+									<li>
+										<a href="inbox.html?a=view">
+										<span class="photo">
+										<img src="../../assets/admin/layout3/img/avatar3.jpg" class="img-circle" alt="">
+										</span>
+										<span class="subject">
+										<span class="from">
+										Richard Doe </span>
+										<span class="time">16 mins </span>
+										</span>
+										<span class="message">
+										Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+										</a>
+									</li>
+									<li>
+										<a href="inbox.html?a=view">
+										<span class="photo">
+										<img src="../../assets/admin/layout3/img/avatar1.jpg" class="img-circle" alt="">
+										</span>
+										<span class="subject">
+										<span class="from">
+										Bob Nilson </span>
+										<span class="time">2 hrs </span>
+										</span>
+										<span class="message">
+										Vivamus sed nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+										</a>
+									</li>
+									<li>
+										<a href="inbox.html?a=view">
+										<span class="photo">
+										<img src="../../assets/admin/layout3/img/avatar2.jpg" class="img-circle" alt="">
+										</span>
+										<span class="subject">
+										<span class="from">
+										Lisa Wong </span>
+										<span class="time">40 mins </span>
+										</span>
+										<span class="message">
+										Vivamus sed auctor 40% nibh congue nibh... </span>
+										</a>
+									</li>
+									<li>
+										<a href="inbox.html?a=view">
+										<span class="photo">
+										<img src="../../assets/admin/layout3/img/avatar3.jpg" class="img-circle" alt="">
+										</span>
+										<span class="subject">
+										<span class="from">
+										Richard Doe </span>
+										<span class="time">46 mins </span>
+										</span>
+										<span class="message">
+										Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>-->					
+					<!-- ЗНАЧОК ОКОЛО АВАТАРКИ ТОЛИ СООБЩЕНИЯ С ПОЧТЫ ТОЛИ НОВОСТИ С ГЛАВ САЙТА НОВЫЕ + О НОВЫХ ВЫПЛАТАХ   КОНЕЦ -->
+                    
+                    
+                    
+					<!-- АВАТАРКА ВМЕСТЕ С ПРОФИЛЬ-КАЛИНДАРЬ-ПОЧТА-ВЫХОД С АККАУНТА НАЧАЛО -->
+<li class="dropdown dropdown-user dropdown-dark">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        
+                       
+<span id="status_currentavatar_2">
+
+                            
+                                                                               <img src="images/users/admin/avatar.jpg" class="img-circle" width="41" height="41"/>
+                                                                                                                        
+                                                           
+      </span>
+
+      
+      
+      
+      
+      
+      
+                        
+                        
+                        
+                        
+						
+						</a>
+						<ul class="dropdown-menu dropdown-menu-default">
+							<li>
+								<a href="extra_profile_account.html">
+								<i class="icon-user"></i> Мой Профиль </a>
+							</li>
+							<!--<li>
+								<a href="page_calendar.html">
+								<i class="icon-calendar"></i> Календарь </a>
+							</li>-->
+							<li>
+								<a href="support.html">
+								<i class="icon-envelope-open"></i> Почта <!--<span class="badge badge-danger"> 0 </span>-->
+								</a>
+							</li>
+							<li>
+								<a href="support.html">
+								<i class="icon-rocket"></i> Поддержка <!--<span class="badge badge-success"> 0 </span>-->
+								</a>
+							</li>
+							<!--
+                            <li class="divider">
+							</li>
+							
+                            
+                            <li>
+								<a href="extra_lock.html">
+								<i class="icon-lock"></i> Lock Screen </a>
+							</li>
+                           --> 
+                            
+							<li>
+								<a href="index.html?logout=y">
+								<i class="icon-key"></i> Выход </a>
+							</li>
+						</ul>
+					</li>
+                    
+						
+					<!-- АВАТАРКА ВМЕСТЕ С ПРОФИЛЬ-КАЛИНДАРЬ-ПОЧТА-ВЫХОД С АККАУНТА КОНЕЦ -->
+                    
+				</ul>
+			</div>
+			<!-- END TOP NAVIGATION MENU -->
+		</div>
+	</div>
+	<!-- END HEADER TOP -->
+	<!-- BEGIN HEADER MENU -->
+	<div class="page-header-menu">
+		<div class="container">
+			<!-- ПОИСК ПО ЛК -->
+<!--<form class="search-form" action="extra_search.html" method="GET">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search" name="query">
+					<span class="input-group-btn">
+					<a href="javascript:;" class="btn submit"><i class="icon-magnifier"></i></a>
+					</span>
+				</div>
+			</form>-->			
+			<!-- ПОИСК ПО ЛК -->
+            
+            
+            
+            
+           
+            
+		
+			
+             <!-- ОГРОМНОЕ МЕНЮ НАЧАЛО-->
+
+            <!--<meta charset="windows-1251"/>   DOC: Apply "hor-menu-light" class after the "hor-menu" class below to have a horizontal menu with white background -->
+			<!-- DOC: Remove data-hover="dropdown" and data-close-others="true" attributes below to disable the dropdown opening on mouse hover -->
+			
+<div class="hor-menu">
+<ul class="nav navbar-nav">
+<li>
+<a href="index.html">Главная</a>
+</li>
+<!-- Форма-1 -->
+<li class="menu-dropdown classic-menu-dropdown ">
+<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+Форма-1 
+</a>
+<ul class="dropdown-menu pull-left">
+<li>
+<a href="form-1.html">
+
+Добавить
+</a>
+</li>
+                        
+<li class="">
+<a href="base_form-1.html">
+
+База
+</a>
+</li>
+</li>
+</ul>
+<!-- Форма-1 -->
+
+
+<!-- Форма-2 -->
+<li class="menu-dropdown classic-menu-dropdown ">
+<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+Форма-2 
+</a>
+<ul class="dropdown-menu pull-left">
+<li>
+<a href="form-2.html">
+
+Добавить
+</a>
+</li>
+                        
+<li class="">
+<a href="base_form-2.html">
+
+База
+</a>
+</li>
+</li>
+</ul>
+<!-- Форма-2 -->
+
+
+
+
+<!-- Форма-3 -->
+<li class="menu-dropdown classic-menu-dropdown ">
+<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+Форма-3 
+</a>
+<ul class="dropdown-menu pull-left">
+<li>
+<a href="form-3.html">
+
+Добавить
+</a>
+</li>
+                        
+<li class="">
+<a href="base_form-3.html">
+
+База
+</a>
+</li>
+</li>
+</ul>
+<!-- Форма-3 -->
+
+
+
+<!-- Форма-4 -->
+<li class="menu-dropdown classic-menu-dropdown ">
+<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+Форма-4 
+</a>
+<ul class="dropdown-menu pull-left">
+<li>
+<a href="form-4.html">
+
+Добавить
+</a>
+</li>
+                        
+<li class="">
+<a href="base_form-4.html">
+
+База
+</a>
+</li>
+</li>
+</ul>
+<!-- Форма-4 -->
+
+
+
+
+
+
+<!-- Форма-5 -->
+<li class="menu-dropdown classic-menu-dropdown ">
+<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+Форма-5 
+</a>
+<ul class="dropdown-menu pull-left">
+<li>
+<a href="form-5.html">
+
+Добавить
+</a>
+</li>
+                        
+<li class="">
+<a href="base_form-5.html">
+
+База
+</a>
+</li>
+</li>
+</ul>
+<!-- Форма-5 -->
+
+
+
+<!-- Форма-6 -->
+<li class="menu-dropdown classic-menu-dropdown ">
+<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+Форма-6 
+</a>
+<ul class="dropdown-menu pull-left">
+<li>
+<a href="form-6.html">
+
+Добавить
+</a>
+</li>
+                        
+<li class="">
+<a href="base_form-6.html">
+
+База
+</a>
+</li>
+</li>
+</ul>
+<!-- Форма-6 -->
+
+
+
+
+
+<!-- Форма-7 -->
+<li class="menu-dropdown classic-menu-dropdown ">
+<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+Форма-7 
+</a>
+<ul class="dropdown-menu pull-left">
+<li>
+<a href="form-7.html">
+
+Добавить
+</a>
+</li>
+                        
+<li class="">
+<a href="base_form-7.html">
+
+База
+</a>
+</li>
+</li>
+</ul>
+<!-- Форма-7 -->
+
+
+
+
+
+
+
+<!-- СПРАВОЧНИКИ -->
+
+
+<!-- Форма-7 -->
+<li class="menu-dropdown classic-menu-dropdown ">
+<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+Справочники 
+</a>
+<ul class="dropdown-menu pull-left">
+
+
+
+
+<li class=" dropdown-submenu">
+								<a href="javascript:;">
+								
+								Наименования Кладбищ </a>
+								<ul class="dropdown-menu">
+									<li class=" ">
+										<a href="reference_book_1_add.html">
+										Добавить </a>
+									</li>
+								<li class=" ">
+										<a href="reference_book_1.html">
+										База </a>
+									</li>
+								
+								</ul>
+</li>
+
+
+
+<li class=" dropdown-submenu">
+								<a href="javascript:;">
+								
+								Участки </a>
+								<ul class="dropdown-menu">
+									<li class=" ">
+										<a href="reference_book_5_add.html">
+										Добавить </a>
+									</li>
+								<li class=" ">
+										<a href="reference_book_5.html">
+										База </a>
+									</li>
+								
+								</ul>
+</li>
+
+
+
+<li class=" dropdown-submenu">
+								<a href="javascript:;">
+								
+								Виды Захоронения </a>
+								<ul class="dropdown-menu">
+									<li class=" ">
+										<a href="reference_book_2_add.html">
+										Добавить </a>
+									</li>
+								<li class=" ">
+										<a href="reference_book_2.html">
+										База </a>
+									</li>
+								
+								</ul>
+</li>
+                        
+
+
+<li class=" dropdown-submenu">
+								<a href="javascript:;">
+								
+								Виды Работ </a>
+								<ul class="dropdown-menu">
+									<li class=" ">
+										<a href="reference_book_3_add.html">
+										Добавить </a>
+									</li>
+								<li class=" ">
+										<a href="reference_book_3.html">
+										База </a>
+									</li>
+								
+								</ul>
+</li>
+
+<li class=" dropdown-submenu">
+								<a href="javascript:;">
+								
+								Виды Сооружений </a>
+								<ul class="dropdown-menu">
+									<li class=" ">
+										<a href="reference_book_4_add.html">
+										Добавить </a>
+									</li>
+								<li class=" ">
+										<a href="reference_book_4.html">
+										База </a>
+									</li>
+								
+								</ul>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+</li>
+</ul>
+<!-- Форма-7 -->
+
+
+
+
+
+
+<!-- СПРАВОЧНИКИ -->
+
+
+
+
+
+
+
+
+
+<!-- Администрация -->
+<li class="menu-dropdown classic-menu-dropdown ">
+<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+Администрация 
+</a>
+<ul class="dropdown-menu pull-left">
+<li>
+<a href="base_users.html">
+
+База Пользователей
+</a>
+</li>
+                        
+<li class="">
+<a href="base_form-6.html">
+
+Идеи для развития проекта
+</a>
+</li>
+</li>
+
+<li class="">
+<a href="base_form-6.html">
+
+Скрипт на базе шаблона
+</a>
+</li>
+</li>
+
+</ul>
+<!-- Администрация -->
+
+
+
+
+
+
+</ul>
+</div> 
+            
+           
+             <!-- ОГРОМНОЕ МЕНЮ КОНЕЦ-->
+			
+		</div>
+	</div>
+	<!-- END HEADER MENU -->
+</div>
+<!-- END HEADER -->
+<!-- BEGIN PAGE CONTAINER -->
+<div class="page-container">
+	<!-- BEGIN PAGE HEAD -->
+	<div class="page-head">
+		<div class="container">
+        
+        
+
+            
+            
+            
+            
+            
+            
+			<!-- END PAGE TITLE -->
+			<!-- BEGIN PAGE TOOLBAR -->
+			<div class="page-toolbar">
+<!-- ПАНЕЛЬ НАСТРОЙКИ ШАБЛОНА ВЫРЕЗАНО -->
+	
+<!-- ПАНЕЛЬ НАСТРОЙКИ ШАБЛОНА ВЫРЕЗАНО -->
+			</div>
+			<!-- END PAGE TOOLBAR -->
+		</div>
+	</div>
+	<!-- END PAGE HEAD -->
+	<!-- BEGIN PAGE CONTENT -->
+	<div class="page-content">
+		<div class="container">
+			<!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+			<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title">Modal title</h4>
+						</div>
+						<div class="modal-body">
+							 Widget settings form goes here
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn blue">Save changes</button>
+							<button type="button" class="btn default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+			<!-- /.modal -->
+			<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+            
+			
+            
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++ДЕРЕВО РАСПОЛОЖЕНИЯ  ГЛАВНАЯ->ПРОФИЛЬ->ФИНАНСЫ++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+            
+                   
+<!-- BEGIN PAGE CONTAINER -->
+<div class="page-container">
+	<!-- BEGIN PAGE HEAD -->
+	<div class="page-head">
+		<div class="container">
+        
+
+            
+           
+            
+            
+            
+			<!-- BEGIN PAGE CONTENT INNER -->
+            
+            
+           
+			<div class="row">
+				<div class="col-md-12">
+					
+                    
+<!-- ++++++++++++++++++++++КОНТЕНТ+++++++++++++++++++++++++++++     -->               
+                    
+
+
+              
+
+
+<table width="100%" border="0" cellpadding="1" cellspacing="1">
+<tr>
+<td width="25%">&nbsp;</td>
+<td> 
+
+<h2><div align="center">Форма-1</div></h2>
+<!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 -->      
+ <!-- Форма-1 -->
+ <!--  -->
+ 
+ 	
+  
+<!--  -->
+<iframe id="form-1_dop_" name="form-1_dop_" style="display: none;"></iframe>
+
+
+ 
+<form class="register-form_" action="form-1_mysql.php" method="post" name="form-1_mysql" target="status_form-1_dop_">
+<input type="hidden" name="oper" value="select_dop"/>
+</form>
+
+					
+
+<iframe id="form-1_mysql_" name="form-1_mysql_" style="display: none;"></iframe>
+<div id="status_form1_complete" style="font-size:12px;" align="center">   
+
+
+
+
+
+<form class="register-form_" action="form-1_mysql.php" method="post" name="form-1_mysql" target="form-1_mysql_">
+
+<input type="hidden" name="oper" value="reg_form-1"/>
+
+
+
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="DeclarantFIO" placeholder="ФИО заявителя*" name="DeclarantFIO" maxlength="250"/>
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Паспорт*" name="DecDocName" maxlength="250"/>
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Серия*" name="DecDocSeria" maxlength="250"/>
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Номер*" name="DecDocNum" maxlength="250"/>
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Адрес регистрации по месту жительства*" name="DecAdress" maxlength="250"/>
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Контактный телефон*" name="DecPhone" maxlength="250"/>
+
+
+
+
+<select name="BurialTypesId" id="select2_sample4" class="select2 form-control">
+<option value="">Вид/Тип захоронения</option>
+<option value="1">>Одиночное</option><option value="2">>Родственное</option><option value="3">>Cемейное</option><option value="3/Настоящее">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Настоящее</option><option value="3/Будущее">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Будущее</option><option value="4">>Воинское</option><option value="5">>Почетное</option></select>
+
+
+
+
+<select name="CemeteriesId" id="select2_sample4" class="select2 form-control">
+<option value="">Наименование Кладбища*</option>
+
+<option value="6">>Спасс - Помазкинское( дер.) (Ярополецкое)</option><option value="7">>Золевское (дер.) (Чисменское)</option><option value="8">>Покровское, ул. Доватора</option><option value="9">>Возмищенское, Северное шоссе</option><option value="10">>Ивановское, с. Ивановское</option><option value="11">>Нелидовское (Чисменское)</option><option value="12">>Ярополецкое (сел.) (Ярополецкое)</option><option value="13">>Привокзальное, ул. Ямская</option><option value="14">>Княжевское (дер.) (Осташевское)</option><option value="15">>Хворостининское, д. Хворостинино</option><option value="16">>Суворовское (сел.) (Кашинское)</option><option value="17">>Ботовское (дер.) (Кашинское)</option><option value="18">>Глазачевское (дер.) (Кашинское)</option><option value="19">>Болычевское (сел.) (Осташевское)</option><option value="20">>Карачаровское (сел.) (Осташевское)</option><option value="21">>Осташевское - 1 (сел.) (Осташевское)</option><option value="22">>Осташевское - 2 (сел.) (Осташевское)</option><option value="23">>Прозоровское (дер.) (Осташевское)</option><option value="24">>Дерменцово (дер.) (Осташевское)</option><option value="25">>Спасское  (сел.) (Спасское)</option><option value="26">>Рюховское (сел.) (Спасское)</option><option value="27">>Спировское (сел.) (Теряевское)</option><option value="28">>Слядневкое (дер.) (Спасское)</option><option value="29">>Якшинское (дер.) (Спасское)</option><option value="30">>Каменское (дер.) (Спасское)</option><option value="31">>Шитьковское (дер.) (Спасское)</option><option value="32">>Новлянское (сел.) (Спасское)</option><option value="33">>Клеткинское (дер.) (Спасское)</option><option value="34">>Лазаревское - 1 (дер.) (Спасское)</option><option value="35">>Лазаревское - 2 (дер.) (Спасское)</option><option value="36">>Стремоуховское (дер.) (Спасское)</option><option value="38">>Кузьминское (дер.) (Теряевское)</option><option value="39">>Ильинское (сел.) (Теряевское)</option><option value="40">>Шиловское (дер.) (Ярополецкое)</option><option value="41">>Курьяновское 1 (дер.) (Ярополецкое)</option><option value="42">>Федоровское (сел.)  (Ярополецкое)</option><option value="43">>Амельфинское (сел.) (Чисменское)</option><option value="44">>Покровское (сел.) (Теряево)</option><option value="45">>Покровское (сел.) (Чисменское)</option><option value="46">>Шестаковское (сел.) (Теряевское)</option><option value="47">>Матренинское (дер.) (Чисменское)</option><option value="48">>Едневское (дер.)  (Чисменское)</option><option value="49">>Покровское (сел.) (Чисменское)</option><option value="50">>Гусеневское (дер.) (Чисменское)</option><option value="51">>Литвиновское (дер.)  (Чисменское)</option><option value="52">>Никитское (дер.) (Чисменское)</option><option value="53">>Ильинское (сел.) (Ярополец)</option></select>
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="ФИО умершего*" name="DeadFIO" maxlength="250"/>
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Степень родства по отношению к заявителю*" name="Relation" maxlength="250"/>
+
+
+
+<input class="form-control placeholder-no-fix date-picker" size="16" type="text" placeholder="Дата рождения умершего*" name="BirthDate"/>
+
+
+<input class="form-control placeholder-no-fix date-picker" size="16" type="text" placeholder="Дата смерти умершего*" name="DeathDate"/>
+
+
+<input class="form-control placeholder-no-fix" type="hidden" autocomplete="off" id="text" placeholder="Свидетельство о смерти: номер; Дата выдачи; Кем выдано;*" name="DeathCert" maxlength="250" value="no"/>
+
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Номер Сведетельства О Смерти*" name="DeathDocNum" maxlength="250"/>
+
+<input class="form-control placeholder-no-fix date-picker" size="16" type="text" value="" placeholder="Дата Сведетельства О Смерти*" name="DeathDocDate"/>
+
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Место Получения Сведетельства О Смерти*" name="DeathDocFrom" maxlength="250"/>
+
+
+
+
+
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Адрес регистрации по последнему месту жительства*" name="DeadAddress" maxlength="250"/>
+
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="BurialResp" placeholder="Ответственный за захоронение*" name="BurialResp" maxlength="250"/>
+<div align="left"><input type="checkbox"  name="otvetstvenni_fio_p1" id="otvetstvenni_fio_p1" onClick="uncheck(); check();" />
+
+<span style="color:#000099;">Совпадает с ФИО-Заявителя</span>
+
+
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Наименование дополнительного документа №1" name="AddDoc1" maxlength="250"/>
+
+
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Наименование дополнительного документа №2" name="AddDoc2" maxlength="250"/>
+
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Наименование дополнительного документа №3" name="AddDoc3" maxlength="250"/>
+
+
+
+
+
+<!-- OPEN-1--><!-- OPEN-1--><!-- OPEN-1--><!-- OPEN-1--><!-- OPEN-1--><!-- OPEN-1--><!-- OPEN-1-->	
+
+
+<div id="status_login" style="font-size:10px; color: #0000CC;"; align="center"></div>
+<div class="form-group" align="center">
+<a class="btn default" data-toggle="modal" href="#basic">Приложение </a>
+</div>
+</div>
+
+<div class="modal fade" id="basic" tabindex="-1" role="basic" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+											<h4 class="modal-title">Приложение</h4>
+										</div>
+										<div class="modal-body">
+<!-- PODFORM-1 -->
+<!-- OPEN-1--><!-- OPEN-1--><!-- OPEN-1--><!-- OPEN-1--><!-- OPEN-1--><!-- OPEN-1--><!-- OPEN-1-->
+
+<!-- --><!-- --><!-- Ответственный за захоронение:--><!-- --><!-- -->
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="№ земельного участка" name="Pril1NumPlace" maxlength="250"/>
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Регистрационный номер захоронения" name="Pril1RegNum" maxlength="250"/>
+
+<input class="form-control placeholder-no-fix" type="text" autocomplete="off" id="text" placeholder="Примечание" name="Pril1RegInfo" maxlength="250"/>
+
+<br>
+
+<input class="form-control placeholder-no-fix date-picker" size="16" type="hidden" value="" placeholder="Pril1Date" name="Pril1Date" value="2017-09-24"/>
+
+<input class="form-control placeholder-no-fix date-picker" size="16" type="hidden" value="" placeholder="Дата Создания Документа" name="DateCreate" value="2017-09-24"/>
+
+
+
+
+
+<input type="hidden" name="UserId" value="1">
+
+
+<input type="hidden" name="intval" value="0">
+
+<select name="StatusId" id="select2_sample4" class="select2 form-control">
+<option value="1">>В работе</option><option value="2" selected="selected">>Выдано</option><option value="3">>Отменено</option></select>
+
+
+
+
+
+
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn default" data-dismiss="modal">Добавить</button>
+										</div>
+									</div>
+									<!-- /.modal-content -->
+								</div>
+								<!-- /.modal-dialog -->
+</div>
+
+
+
+	
+<button type="submit" id="register-submit-btn" class="btn btn-success uppercase pull-right" onClick="form-1_mysql.submit();">Записать</button>
+</form><div id="status_form1_error" style="font-size:10px; color:#FF0000"; align="center"></div>
+</div>
+
+</div> <!-- Закрытие Status div -->
+
+<!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 --><!-- FORMS-1 -->    	                    
+                    	
+
+	
+</td>
+<td width="25%">&nbsp;</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+     
+                    
+<!-- ++++++++++++++++++++++КОНТЕНТ+++++++++++++++++++++++++++++     -->                        
+				</div>
+			</div>
+			<!-- END PAGE CONTENT INNER -->
+		</div>
+	</div>
+	<!-- END PAGE CONTENT -->
+</div>
+<!-- END PAGE CONTAINER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                    
+				</div>
+			</div>
+			<!-- END PAGE CONTENT INNER -->
+		</div>
+	</div>
+	<!-- END PAGE CONTENT -->
+</div>
+<!-- END PAGE CONTAINER -->
+
+
+<!-- ++++++++++++++++++++++НИЗ+++++++++++++++++++++++++++++     --> 
+
+
+
+
+<!-- BEGIN FOOTER -->
+
+<div class="page-footer">
+	<div class="container" align="center">
+Cemetery  © All Rights Reserved 2017	</div>
+</div>
+<div class="scroll-to-top">
+	<i class="icon-arrow-up"></i>
+</div>
+<!-- END FOOTER --> 
+<!-- ++++++++++++++++++++++НИЗ+++++++++++++++++++++++++++++     -->  
+
+
+
+<script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="assets/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script type="text/javascript" src="assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="assets/global/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+<script type="text/javascript" src="assets/global/plugins/clockface/js/clockface.js"></script>
+<script type="text/javascript" src="assets/global/plugins/bootstrap-daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="assets/global/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="assets/global/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+<script type="text/javascript" src="assets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="assets/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="assets/admin/layout3/scripts/layout.js" type="text/javascript"></script>
+<script src="assets/admin/layout3/scripts/demo.js" type="text/javascript"></script>
+<script src="assets/admin/pages/scripts/components-pickers.js"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<script>
+        jQuery(document).ready(function() {       
+           // initiate layout and plugins
+           Metronic.init(); // init metronic core components
+Layout.init(); // init current layout
+Demo.init(); // init demo features
+           ComponentsPickers.init();
+        });   
+    </script>
+
+
+
+
+
+
+
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
