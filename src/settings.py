@@ -32,7 +32,7 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_HOST_USER = SERVER_EMAIL = \
-DEFAULT_FROM_EMAIL = 'fr0574lex@yandex.ru' #'frost4lex@gmail.com'
+DEFAULT_FROM_EMAIL = 'user@yandex.ru'
 REGISTRATION_AUTO_LOGIN = True
 
 # Static files (CSS, JavaScript, Images)
@@ -90,7 +90,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-SITE_ID = 2
+SITE_ID = 1
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
