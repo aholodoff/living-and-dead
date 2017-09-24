@@ -6,8 +6,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-# Application definition
-
 INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.admin',
@@ -34,9 +32,6 @@ EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_HOST_USER = SERVER_EMAIL = \
 DEFAULT_FROM_EMAIL = 'user@yandex.ru'
 REGISTRATION_AUTO_LOGIN = True
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, '/static/')
@@ -76,10 +71,6 @@ WSGI_APPLICATION = 'src.wsgi.application'
 
 ROOT_URLCONF = 'src.urls'
 
-
-# Internationalization
-# https://docs.djangoproject.com/en/1.10/topics/i18n/
-
 LANGUAGE_CODE = 'ru-RU'
 
 TIME_ZONE = 'Europe/Moscow'
@@ -91,9 +82,6 @@ USE_L10N = True
 USE_TZ = True
 
 SITE_ID = 1
-
-# Password validation
-# https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -114,9 +102,6 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend', 
     'guardian.backends.ObjectPermissionBackend', 
 )
-
-# Database
-# https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
 DATABASES = {
     'default': {
