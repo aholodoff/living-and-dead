@@ -95,20 +95,20 @@ SITE_ID = 2
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
 
-#AUTH_PASSWORD_VALIDATORS = [
-#    {
-#        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-#    },
-#    {
-#        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-#    },
-#    {
-#        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-#    },
-#    {
-#        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-#    },
-#]
+AUTH_PASSWORD_VALIDATORS = [
+    {
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+    },
+]
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend', 
@@ -120,14 +120,14 @@ AUTHENTICATION_BACKENDS = (
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql', #'django.db.backends.sqlite3',
-        'NAME': 'test', # os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql', 
+        'NAME': 'test', 
         'USER': 'www-data',
-        'PASSWORD': '543212345',
+        'PASSWORD': '5432345',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
 
-SECRET_KEY = 'c^@u=zd%6x9%acr3_vmj(mw3(v27vk#^unuvt=n5wxvh9g3lcw'
-EMAIL_HOST_PASSWORD = ''.join(['G', 'b', '7', 'o', 'V', '0', '4', 'n', 'Y', '9', 'o', '9'])
+SECRET_KEY = 'Wow_where_is_my_shirts'
+EMAIL_HOST_PASSWORD = '(^_^)'
